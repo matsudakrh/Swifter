@@ -10,9 +10,9 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/mattdonnelly/Swifter"
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author    = "Matt Donnelly"
-  s.ios.deployment_target = "9.0"
+  s.ios.deployment_target = "8.0"
   s.osx.deployment_target = "10.10"
-  s.source       = { :git => "https://github.com/mattdonnelly/Swifter.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/matsudakrh/Swifter.git", :tag => "#{s.version}" }
   s.source_files  = "Sources/*.swift"
 
 
